@@ -21,7 +21,7 @@ def predict(dataset):
 
 
 if __name__ == '__main__':
-    df = pd.read_csv('/Users/nakamotorikuto/Desktop/mahjong/Keras_test/app/data/data_hantyan_1.csv', index_col=0)
+    df = pd.read_csv('data/data_hantyan_1.csv', index_col=0)
     df = df[[
         "f_1", "f_2", "f_3", "f_4", 
         '受け入れ_1_0', '受け入れ_1_1', '受け入れ_1_2', '受け入れ_2_0', '受け入れ_2_1', '受け入れ_2_2', '受け入れ_3_0', '受け入れ_3_1', '受け入れ_3_2', '受け入れ_4_0', '受け入れ_4_1', '受け入れ_4_2',
