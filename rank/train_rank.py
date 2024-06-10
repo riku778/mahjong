@@ -14,7 +14,7 @@ from model import DNNModel
 
 
 def main():
-    df = pd.read_csv('/Users/nakamotorikuto/Desktop/mahjong/Keras_test/app/data/data_ukeire.csv', index_col=0)
+    df = pd.read_csv('data/data_ukeire.csv', index_col=0)
 
     df = df[[
         "f_1", "f_2", "f_3", "f_4",
